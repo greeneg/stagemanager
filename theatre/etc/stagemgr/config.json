@@ -1,0 +1,19 @@
+{
+    "main": {
+        "debug": true,
+        "trace": false,
+        "cfgDirectory": "/etc/stagemgr",
+        "logDirectory": "/var/log/stagemgr",
+        "runDirectory": "/var/lib/stagemgr",
+        "colorOutput": true
+    },
+    "theatre": {
+        "epicFile": "epic.json",
+        "epicContentDirectory": "epics.d",
+        "playbookRoot": "playbooks",
+        "stageDirectory": "staging",
+        "fileCheckAlgorithm": "sha256",
+        "wardrobeConfigFile": "wardrobe.json",
+        "mode": "selfDirected"
+    }
+}
